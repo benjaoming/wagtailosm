@@ -15,11 +15,9 @@ Open Street Map integration for Wagtail
 Features
 --------
 
-Simple integration of OpenStreetMaps in wagtail using the ``osm_field`` implementation.
+Simple integration of OpenStreetMaps for Wagtail using the ``osm_field`` implementation. Use it as with ``osm_field``: If you want maps but don't need GIS. What it does is to maintain three columns in your database, one for latitude, one for longitude, and one for the "text search" that you have used to initially place the dot on the map in the admin.
 
-Use it as with ``osm_field``: If you want maps but don't need GIS.
-
-Usage: `See docs <http://wagtailosm.readthedocs.org>`_.
+Usage: `See docs <http://wagtailosm.readthedocs.org/en/latest/usage.html>`_.
 
 How it looks
 ------------
