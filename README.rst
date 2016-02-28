@@ -22,12 +22,12 @@ Simple integration of OpenStreetMaps in wagtail using the ``osm_field`` implemen
 
 Use it as with ``osm_field``: If you want maps but don't need GIS.
 
-Usage: `See docs <http://wagtailosm.readthedocs.org>`.
+Usage: `See docs <http://wagtailosm.readthedocs.org>`_.
 
 How it looks
 ------------
 
-.. image:: screenshot.png
+.. image:: ./screenshot.png
 
 Improvements?
 -------------
