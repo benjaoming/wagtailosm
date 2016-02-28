@@ -1,0 +1,25 @@
+.wagtailosm-location
+{
+  overflow: visible;
+}
+
+.wagtailosm-hidden
+{
+  display: none;
+}
+
+.wagtailosm-location div.osmfield-wrapper {
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.wagtailosm-location div.osmfield-map {
+	width: 90%;
+	height: 450px;
+	border: 1px solid black;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+

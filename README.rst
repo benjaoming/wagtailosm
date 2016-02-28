@@ -18,5 +18,19 @@ Open Street Map integration for Wagtail
 Features
 --------
 
-* TODO
+Simple integration of OpenStreetMaps in wagtail using the ``osm_field`` implementation.
+
+Use it as with ``osm_field``: If you want maps but don't need GIS.
+
+Usage: `See docs <http://wagtailosm.readthedocs.org>`.
+
+How it looks
+------------
+
+.. image:: screenshot.png
+
+Improvements?
+-------------
+
+This project took about 2 hours. Nothing is sacred, please contribute.
 
