@@ -20,8 +20,5 @@ Contents:
 Feedback
 ========
 
-If you have any suggestions or questions about **wagtailosm** feel free to email me
-at benjamin@overtag.dk.
-
 If you encounter any errors or problems with **wagtailosm**, please let me know!
 Open an Issue at the GitHub http://github.com/benjaoming/wagtailosm main repository.
