@@ -27,7 +27,7 @@ Usage: `See docs <http://wagtailosm.readthedocs.org>`_.
 How it looks
 ------------
 
-.. image:: ./screenshot.png
+.. image:: ./screen.png
 
 Improvements?
 -------------
