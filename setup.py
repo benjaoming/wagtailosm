@@ -34,7 +34,7 @@ setup(
     package_dir={'wagtailosm': 'wagtailosm'},
     include_package_data=True,
     install_requires=[
-        'django-osm-field',
+        'django-osm-field==0.3.0',
     ],
     license='MIT',
     zip_safe=False,

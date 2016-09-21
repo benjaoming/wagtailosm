@@ -1,4 +1,4 @@
-from osm_field.forms import _get_css, _get_js
+from osm_field.widgets import _get_css, _get_js
 from wagtail.wagtailcore import hooks
 from django.conf import settings
 from django.utils.html import format_html_join

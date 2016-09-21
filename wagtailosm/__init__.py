@@ -1,4 +1,4 @@
 __author__ = 'Benjamin Bach'
 __email__ = 'benjamin@overtag.dk'
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 
