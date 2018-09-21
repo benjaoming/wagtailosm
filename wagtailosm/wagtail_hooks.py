@@ -1,7 +1,13 @@
 from osm_field.widgets import _get_css, _get_js
-from wagtail.wagtailcore import hooks
+
 from django.conf import settings
 from django.utils.html import format_html_join
+
+# Wagtail 1 or Wagtail 2?
+try:
+    from wagtail.wagtailcore import hooks
+except ImportError:
+    from wagtail.core import hooks
 
 
 @hooks.register('insert_editor_js')
