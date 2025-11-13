@@ -27,6 +27,13 @@ where they just need to choose a location on the map.
 
 .. code-block:: python
 
+    # snip: bunch of wagtail imports
+
+    from osm_field.fields import LatitudeField
+    from osm_field.fields import LongitudeField
+    from osm_field.fields import OSMField
+    from osm_field.widgets import OSMWidget
+
     class Country(Page):
 
         # If you are adding this field to an existing model, you need to define some
@@ -60,6 +67,13 @@ In this example, there is no default value, and we expect the default use-case t
 They use the map in case they do not have these values and need an alternative to choosing them since every interaction with the map causes the lat/lon to be overwritten!
 
 .. code-block:: python
+
+    # snip: bunch of wagtail imports
+
+    from osm_field.fields import LatitudeField
+    from osm_field.fields import LongitudeField
+    from osm_field.fields import OSMField
+    from osm_field.widgets import OSMWidget
 
     class Country(Page):
 
