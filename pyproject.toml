@@ -1,0 +1,21 @@
+[project]
+name = "wagtailosm"
+version = "0.3.0"
+description = "Open Street Map integration for Wagtail"
+readme = "README.md"
+authors = [
+    { name = "bbb", email = "benjamin@overtag.dk" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "django-osm-field>=0.5.0",
+    "wheel>=0.22",
+    "wagtail>=5.2",
+]
+
+[project.scripts]
+wagtailosm = "wagtailosm:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
