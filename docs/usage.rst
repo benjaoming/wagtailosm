@@ -2,14 +2,16 @@
 Usage
 ========
 
+Firstly, install or add ``wagtailosm`` to your dependencies.
+
 Add ``wagtailosm`` and ``osm_field`` to your ``INSTALLED_APPS``:
 
 .. code-block:: python
 
     INSTALLED_APPS = (
         # ...
-        'osm_field',
-        'wagtailosm',
+        "osm_field",
+        "wagtailosm",
         # ...
     )
 
@@ -31,7 +33,7 @@ where they just need to choose a location on the map.
         # default location for populating existing rows in the migration.
         DEFAULT_LAT, DEFAULT_LON = (52.4864, 13.4385)
 
-        location = OSMField(default=(DEFAULT_LAT, DEFAULT_LON), lat_field='latitude', lon_field='longitude')
+        location = OSMField(default=(DEFAULT_LAT, DEFAULT_LON), lat_field="latitude", lon_field="longitude")
         latitude = LatitudeField(default=DEFAULT_LAT)
         longitude = LongitudeField(default=DEFAULT_LON)
 
@@ -41,7 +43,11 @@ where they just need to choose a location on the map.
 
         # Add to Wagtail admin's panels - example with hidden lat/lon fields
         content_panels = Page.content_panels + [
-            FieldPanel('location', widget=osm_field.fields.OSMWidget('latitude', 'longitude'), classname="wagtailosm-location"),
+            FieldPanel(
+                'location',
+                widget=osm_field.fields.OSMWidget("latitude", "longitude"), classname="wagtailosm-location",
+                help_text=_("Type a search term to choose a location on map."),
+            ),
             FieldPanel('latitude', classname="wagtailosm-hidden"),
             FieldPanel('longitude', classname="wagtailosm-hidden"),
         ]
@@ -77,6 +83,6 @@ They use the map in case they do not have these values and need an alternative t
                 "location",
                 widget=OSMWidget("latitude", "longitude"),
                 classname="wagtailosm-location",
-                help_text=_("Choose location on map (instead of typing coordinates)"),
+                help_text=_("Type a search term to choose a location on map (instead of typing coordinates)"),
             ),
         ]
