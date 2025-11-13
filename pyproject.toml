@@ -1,6 +1,6 @@
 [project]
 name = "wagtailosm"
-version = "0.3.1"
+version = "0.3.2"
 description = "Open Street Map integration for Wagtail"
 readme = "README.md"
 authors = [
