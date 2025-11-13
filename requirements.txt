@@ -1,2 +1,0 @@
-wheel>=0.22
-django_osm_field
