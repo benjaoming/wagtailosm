@@ -7,15 +7,16 @@
 Contents:
 =========
 
+This project was made very quickly and encourages you to contribute just as quickly and directly to its documentation and code. Or make it your own immediately!
+
 .. toctree::
    :maxdepth: 2
    usage
-   contributing
-   authors
-   history
+
+.. image::
+   ./screen.png
 
 Feedback
 ========
 
-If you encounter any errors or problems with **wagtailosm**, please let me know!
-Open an Issue at the GitHub http://github.com/benjaoming/wagtailosm main repository.
+Opening PRs on the main repo is encouraged: http://github.com/benjaoming/wagtailosm main repository.
