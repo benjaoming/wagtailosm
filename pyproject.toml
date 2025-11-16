@@ -1,6 +1,6 @@
 [project]
 name = "wagtailosm"
-version = "0.3.2"
+version = "0.4.0"
 description = "Open Street Map integration for Wagtail"
 readme = "README.md"
 authors = [
@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "django-osm-field>=0.5.0",
+    "django-osm-field>=0.6.0",
     "wheel>=0.22",
     "wagtail>=5.2",
 ]
